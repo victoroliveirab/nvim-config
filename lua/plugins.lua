@@ -48,22 +48,6 @@ return packer.startup(function(use)
   -- Colorscheme
   use "folke/tokyonight.nvim"
 
-  -- cmp plugins
-  use "hrsh7th/nvim-cmp" -- main plugin
-  use "hrsh7th/cmp-buffer" -- buffer completions 
-  use "hrsh7th/cmp-path" -- path completions 
-  use "hrsh7th/cmp-cmdline" -- cmdline completions
-  use "saadparwaiz1/cmp_luasnip" -- snippet completions
-  use "hrsh7th/cmp-nvim-lsp" -- cmp and lsp together
-
-  -- snippets
-  use "L3MON4D3/LuaSnip" -- Snippet engine
-  use "rafamadriz/friendly-snippets" -- Snippets collection
-
-  -- LSP
-  use "neovim/nvim-lspconfig" -- enable LSP
-  use "williamboman/nvim-lsp-installer" -- language server installer
-
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then

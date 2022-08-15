@@ -36,6 +36,16 @@ vim.opt.scrolloff = 8                           -- is one of my fav
 vim.opt.sidescrolloff = 8
 vim.opt.guifont = "monospace:h17"               -- the font used in graphical neovim applications
 
+-- Try these later
+-- vim.opt.inccommand = 'split'
+-- vim.opt.laststatus = 2
+-- vim.opt.backspace = 'start,eol,indent'
+-- vim.opt.path:append { '**' } -- Searches down into subfolders
+-- vim.opt.wildignore:append { '*/node_modules/*' }
+-- vim.opt.winblend = 0
+-- vim.opt.wildoptions = 'pum'
+-- vim.opt.pumblend = 5
+
 vim.opt.shortmess:append "c"
 
 vim.cmd "set whichwrap+=<,>,[,],h,l"
